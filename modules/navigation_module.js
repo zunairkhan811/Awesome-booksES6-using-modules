@@ -7,5 +7,5 @@ const addLink = document.querySelector('.add-page');
 const contactLink = document.querySelector('.contact-page');
 
 export {
-    pageOne, pageTwo, pageThree, listLink, addLink, contactLink
-}
+  pageOne, pageTwo, pageThree, listLink, addLink, contactLink,
+};

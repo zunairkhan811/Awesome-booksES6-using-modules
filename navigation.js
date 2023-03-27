@@ -1,6 +1,6 @@
 import {
-    pageOne, pageTwo, pageThree, listLink, addLink, contactLink,
-  } from './modules/navigation_module.js';
+  pageOne, pageTwo, pageThree, listLink, addLink, contactLink,
+} from './modules/navigation_module.js';
 
 listLink.addEventListener('click', () => {
   pageOne.classList.remove('invisible');
