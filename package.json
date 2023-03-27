@@ -1,0 +1,19 @@
+{
+  "name": "awesome-bookses6-using-modules",
+  "version": "1.0.0",
+  "description": "",
+  "main": "navigation.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zunairkhan811/Awesome-booksES6-using-modules.git"
+  },
+  "author": "Zunair",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zunairkhan811/Awesome-booksES6-using-modules/issues"
+  },
+  "homepage": "https://github.com/zunairkhan811/Awesome-booksES6-using-modules#readme"
+}
