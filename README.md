@@ -29,10 +29,6 @@
 
 **[Add-Books-javascript-Project]** is a project of Adding and Removing Books from website using javascript Classes and using modules and libraries to showcase my javascript skills to  employers.
 
-
-- [Video Link about Project] <a href="#"><button type="button" color:red background: white>Click Here</button></a>
-
-
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -71,7 +67,7 @@ This project has been made using html, css, and javascript  according to project
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Live Demo Link]  <a href="https://github.com/zunairkhan811/Awesome-booksES6-using-modules.git"><button type="button" color:red background: white>Visit Site</button></a>
+- [Live Demo Link]  <a href="#"><button type="button" color:red background: white>Visit Site</button></a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
