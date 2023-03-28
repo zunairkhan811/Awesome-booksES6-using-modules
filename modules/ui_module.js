@@ -1,9 +1,9 @@
-import store from './store_module.js';
+import Store from './store_module.js';
 
-export default class ui {
+export default class Ui {
   static displaybooks() {
-    const books = store.getbooks();
-    books.forEach((book) => ui.addbooktolist(book));
+    const books = Store.getbooks();
+    books.forEach((book) => Ui.addbooktolist(book));
   }
 
   static addbooktolist(book) {
