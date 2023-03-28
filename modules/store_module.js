@@ -1,4 +1,4 @@
-export default class store {
+export default class Store {
   static getbooks() {
     let books;
     if (localStorage.getItem('books') === null) {
@@ -10,13 +10,13 @@ export default class store {
   }
 
   static addbook(book) {
-    const books = store.getbooks();
+    const books = Store.getbooks();
     books.push(book);
     localStorage.setItem('books', JSON.stringify(books));
   }
 
   static removebook(idFrombutton) {
-    const books = store.getbooks();
+    const books = Store.getbooks();
 
     const index = books.findIndex((book) => book.id === idFrombutton);
     books.splice(index, 1);
