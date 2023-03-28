@@ -24,8 +24,8 @@ document.querySelector('#form').addEventListener('submit', (e) => {
 });
 
 document.querySelector('#book-addition').addEventListener('click', (e) => {
-  ui.deletebook(e.target);
-  store.removebook(e.target.getAttribute('data-modal'));
+  Ui.deletebook(e.target);
+  Store.removebook(e.target.getAttribute('data-modal'));
 });
 
 // current date & time
