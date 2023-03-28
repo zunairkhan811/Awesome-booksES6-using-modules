@@ -1,9 +1,9 @@
 import { DateTime } from './modules/luxon.js';
-import ui from './modules/ui_module.js';
-import store from './modules/store_module.js';
+import Ui from './modules/ui_module.js';
+import Store from './modules/store_module.js';
 import Book from './modules/Book_module.js';
 
-document.addEventListener('DOMContentLoaded', ui.displaybooks);
+document.addEventListener('DOMContentLoaded', Ui.displaybooks);
 
 document.querySelector('#form').addEventListener('submit', (e) => {
   e.preventDefault();
@@ -15,11 +15,11 @@ document.querySelector('#form').addEventListener('submit', (e) => {
   } else {
     const book = new Book(title, author);
 
-    ui.addbooktolist(book);
+    Ui.addbooktolist(book);
 
-    store.addbook(book);
+    Store.addbook(book);
 
-    ui.clearFields();
+    Ui.clearFields();
   }
 });
 
